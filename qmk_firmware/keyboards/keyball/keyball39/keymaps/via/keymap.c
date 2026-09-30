@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Left thumbs: snap modes, Boot, Reset; 6th falls through to LT(3) hold.
   [3] = LAYOUT_universal(
     RGB_TOG  , RGB_MOD  , RGB_RMOD , KC_MUTE  , AML_TO   ,                            RGB_M_P  , RGB_M_B  , RGB_M_R  , RGB_M_SW , RGB_M_SN ,
-    RGB_HUI  , RGB_SAI  , RGB_VAI  , KC_VOLU  , SCRL_DVD ,                            RGB_M_K  , RGB_M_X  , RGB_M_G  , RGB_M_T  , RGB_M_TW ,
+    RGB_HUI  , RGB_SAI  , RGB_VAI  , KC_VOLU  , SCRL_DVD ,                            RGB_M_K  , RGB_M_X  , RGB_M_G  , _______  , RGB_M_TW ,
     RGB_HUD  , RGB_SAD  , RGB_VAD  , KC_VOLD  , SCRL_DVI ,                            CPI_D1K  , CPI_D100 , CPI_I100 , CPI_I1K  , KBC_SAVE ,
     SSNP_VRT , SSNP_FRE , SSNP_HOR , QK_BOOT  , KBC_RST  , _______  ,      _______  , _______  , _______  , _______  , _______  , _______
   ),
