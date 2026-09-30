@@ -21,8 +21,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #ifdef RGBLIGHT_ENABLE
-// Pro Micro + VIA + OLED は容量が厳しいので、使う効果だけ有効化する。
-// ALTERNATING / RGB_TEST はキー無し（または優先度低）のため無効。
 #    define RGBLIGHT_EFFECT_BREATHING
 #    define RGBLIGHT_EFFECT_RAINBOW_MOOD
 #    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
@@ -33,7 +31,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define RGBLIGHT_EFFECT_TWINKLE
 #endif
 
-// VIA のマクロ枠を減らしてファームサイズを抑える（QK_MACRO_0 のみ使用）
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #define DYNAMIC_KEYMAP_MACRO_COUNT 8
 
